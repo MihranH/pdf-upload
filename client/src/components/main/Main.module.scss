@@ -1,0 +1,76 @@
+.header {
+    background-color: white;
+    box-shadow: 1px 3px #F0F0F0;
+    img {
+        width: 120px;
+    }
+    div {
+        float: right;
+        color: #666666;
+    }
+}
+
+.background {
+    background-color: #FAFCFF;
+    height: 100vh;
+}
+
+.dragger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10vh;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding-bottom: 30px;
+
+    .listItem {
+       padding: 10px;
+       border: 1px solid gray;
+       font-size: 18px;
+       width: 528px;
+    }
+
+    .downloadIcon {
+        font-size: 22px;
+        color: blue;
+        vertical-align: middle;
+        float: right;
+        cursor: pointer;
+    }
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logoutIcon {
+    font-size: 18px;
+    color: blue;
+    float: right;
+    margin-left: 10px;
+    cursor: pointer;
+}
